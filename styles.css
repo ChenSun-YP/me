@@ -166,13 +166,19 @@ body {
 
 .footer-map {
   margin-top: 6px;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  min-height: 190px;
   overflow: hidden;
   border-radius: 8px;
   border: 1px solid var(--line);
   background: #fff;
+}
+
+/* MapMyVisitors injects its own full-width node; scale injected content directly */
+.footer-map > * {
+  transform: scale(0.5);
+  transform-origin: top left;
+  width: 200% !important;
 }
 
 .site-footer .container > p {
