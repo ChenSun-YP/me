@@ -159,16 +159,10 @@ body {
 .footer-analytics {
   margin-bottom: 12px;
   padding: 0;
-  width: min(430px, 100%);
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .footer-map {
   margin-top: 6px;
-  width: min(430px, 100%);
-  margin-left: auto;
-  margin-right: auto;
   overflow: hidden;
   border-radius: 8px;
   border: 1px solid var(--line);
