@@ -164,23 +164,6 @@ body {
   margin-right: auto;
 }
 
-.footer-label {
-  margin: 0 0 8px;
-  font-weight: 700;
-  color: var(--text);
-}
-
-.visitor-count-line {
-  margin: 0 0 12px;
-  font-size: 1rem;
-  color: var(--text);
-}
-
-.visitor-count-line #busuanzi_value_site_pv {
-  font-weight: 700;
-  color: var(--accent);
-}
-
 .footer-map {
   margin-top: 6px;
   overflow: hidden;
