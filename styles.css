@@ -166,6 +166,9 @@ body {
 
 .footer-map {
   margin-top: 6px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
   overflow: hidden;
   border-radius: 8px;
   border: 1px solid var(--line);
