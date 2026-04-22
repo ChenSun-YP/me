@@ -97,8 +97,17 @@
   <footer class="site-footer">
     <div class="container">
       <div class="footer-analytics">
+        <p class="footer-label">Visitor Count</p>
+        <p class="visitor-count-line">
+          Total Visits: <span id="busuanzi_value_site_pv">...</span>
+        </p>
+        <p class="footer-label">World Visitor Map</p>
         <div class="footer-map">
-          <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=467&t=n&d=NsVzSaJBfibZCRV2VLl9Yw_1s9PNhCFGU_HFlFTtg_A'></script>
+          <script
+            type="text/javascript"
+            id="LTF_globe"
+            src="https://cdn.livetrafficfeed.com/static/globe-widget/live.v2.js?w=980&root=0&n=e61c1c&o=e61c1c"
+          ></script>
         </div>
       </div>
       <p>&copy; <span id="year"></span> Chen Sun. All rights reserved.</p>
@@ -106,6 +115,7 @@
   </footer>
 
   <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
 
