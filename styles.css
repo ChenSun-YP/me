@@ -85,6 +85,46 @@ body {
   font-size: 1.55rem;
 }
 
+.news-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.news-item {
+  margin: 0;
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.news-item + .news-item {
+  margin-top: 12px;
+}
+
+.news-date {
+  display: block;
+  margin: 0 0 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.news-body {
+  margin: 0;
+}
+
+.news-body a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.news-body a:hover {
+  text-decoration: underline;
+}
+
 .github-header {
   display: flex;
   align-items: baseline;
